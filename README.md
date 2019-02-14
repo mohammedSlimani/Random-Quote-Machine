@@ -1,5 +1,6 @@
 # Random-Quote-Machine
 Simple React Random Quote machine
+using create-react-app 
 
 # Purpose of this project
 Practice ReactJS. 
