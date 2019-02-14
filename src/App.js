@@ -57,10 +57,10 @@ class App extends Component {
   render() {
     return (
       <div id='quote-box' className="App">
-        <h1>My App</h1>
-        <Quote quote={this.state.quote}/>
-        <button id='new-quote' onClick={this.changeQuote}>Refresh</button>
+        <button id='new-quote' className='btn btn-secondary' onClick={this.changeQuote}>Refresh</button>
+        <br/>
         <a id='tweet-quote' href='twitter/intent/tweet'>Tweet This quote</a>
+        <Quote quote={this.state.quote}/>
       </div>
     );
   }
